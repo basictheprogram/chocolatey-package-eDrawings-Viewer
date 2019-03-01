@@ -27,4 +27,6 @@
       <dependency id="edrawings-viewer" version="18.3" />
     </dependencies>
   </metadata>
+  <files>
+  </files>
 </package>
