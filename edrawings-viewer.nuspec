@@ -2,14 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>edrawings-viewer</id>
-    <version>18.3.0.0034</version>
+    <version>27.1.0.0092</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>http://www.edrawingsviewer.com/ed/edrawings-viewer.htm</projectUrl>
     <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-package-eDrawings-Viewer/master/icons/edrawings-viewer-icon.png</iconUrl>
-    <copyright>©2017 Dassault Systemes SOLIDWORKS Corporation</copyright>
+    <copyright>©2019 Dassault Systemes SOLIDWORKS Corporation</copyright>
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
@@ -37,9 +37,8 @@ JPEG, or BMP formats.
 The eDrawings Viewer is intended primarily for people who do not use CAD software, but need to consume and understand 3D product 
 data but not create and publish eDrawings files themselves. it is available for both Windows, Mac and Mobile platforms.</description>
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
-    <!-- =============================== -->      
     <dependencies>
-      <dependency id="dotnet4.6.2"/>
+      <!-- <dependency id="dotnet4.6.2"/> -->
     </dependencies>
   </metadata>
   <files>

@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = $env:ChocolateyPackageName
-$url64       = 'http://dl-ak.solidworks.com/nonsecure/edrawings/e2018sp03/18.3.0.0034/pfw//eDrawingsFullAllX64.exe'
-$checksum64  = '08aed4b3b6fc4a29086d8438be807d6f8228331f74c3acc73244ab29c9f5d5a2'
+$url64       = 'http://dl-ak.solidworks.com/nonsecure/edrawings/e2019sp01/27.1.0.0092-YSZWNLN6/pfw//eDrawingsFullAllX64.exe'
+$checksum64  = '44a9ea99ef9426444e3412b2a73752d781d8362f8de36b8af0bcd3b8f5a96097'
 $WorkSpace   = Join-Path $env:TEMP "$packageName.$env:chocolateyPackageVersion"
 
 $WebFileArgs = @{
@@ -26,10 +26,11 @@ Get-ChocolateyUnzip @UnzipArgs
 
 $InstallArgs = @{
   PackageName    = $packageName
-  File           = Join-Path $WorkSpace "eDrawings.msi"
-  fileType       = 'msi'
-  silentArgs     = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
+  File           = Join-Path $WorkSpace "eDrawingsFullAllX64.exe"
+  fileType       = 'exe'
+  silentArgs     = "/S /v/qn"
   validExitCodes = @(0, 3010, 1641)
+  softwareName   = 'eDrawings*'
 }
 
 Install-ChocolateyInstallPackage @InstallArgs
