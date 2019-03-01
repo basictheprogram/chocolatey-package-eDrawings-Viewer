@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
-    <id>edrawings-viewer</id>
-    <version>18.3.0.0034</version>
+    <id>edrawings-viewer-2018</id>
+    <version>18.3.0.20190301</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
