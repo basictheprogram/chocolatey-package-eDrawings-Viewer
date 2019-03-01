@@ -5,7 +5,7 @@
     <version>18.3.0.20190301</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>[Deprecated] eDrawings Viewer</title>
+    <title>eDrawings Viewer</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>http://www.edrawingsviewer.com/ed/edrawings-viewer.htm</projectUrl>
     <copyright>©2017 Dassault Systemes SOLIDWORKS Corporation</copyright>
