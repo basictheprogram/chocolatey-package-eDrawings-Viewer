@@ -3,11 +3,12 @@
   <metadata>
     <id>edrawings-viewer-2018</id>
     <version>18.3.0.20190301</version>
-    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer</packageSourceUrl>
+    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer/tree/2018</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>http://www.edrawingsviewer.com/ed/edrawings-viewer.htm</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-package-eDrawings-Viewer/master/icons/edrawings-viewer-icon.png</iconUrl>
     <copyright>©2017 Dassault Systemes SOLIDWORKS Corporation</copyright>
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
