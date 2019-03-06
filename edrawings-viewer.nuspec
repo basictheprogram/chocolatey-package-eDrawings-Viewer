@@ -3,7 +3,7 @@
   <metadata>
     <id>edrawings-viewer-2019</id>
     <version>27.1.0.0092</version>
-    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer</packageSourceUrl>
+    <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer/tree/2019</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
     <authors>Dassault Systèmes</authors>
