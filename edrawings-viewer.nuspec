@@ -24,7 +24,7 @@
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
     <!-- =============================== -->      
     <dependencies>
-      <dependency id="edrawings-viewer" version="18.3" />
+      <dependency id="edrawings-viewer-2018" version="18.3" />
     </dependencies>
   </metadata>
   <files>
