@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = $env:ChocolateyPackageName
-$url64       = 'http://dl-ak.solidworks.com/nonsecure/edrawings/e2019sp01/27.1.0.0092-YSZWNLN6/pfw//eDrawingsFullAllX64.exe'
-$checksum64  = '44a9ea99ef9426444e3412b2a73752d781d8362f8de36b8af0bcd3b8f5a96097'
+$url64       = 'http://dl-ak.solidworks.com/nonsecure/edrawings/e2019sp03/27.3.0.0056-GLWVXMBN/pfw//eDrawingsFullAllX64.exe'
+$checksum64  = '69920b774f308fb42132719cac011924c898a0676c9076857abc31f10f92b769'
 $WorkSpace   = Join-Path $env:TEMP "$packageName.$env:chocolateyPackageVersion"
 
 $WebFileArgs = @{
@@ -28,7 +28,7 @@ $InstallArgs = @{
   PackageName    = $packageName
   File           = Join-Path $WorkSpace "eDrawingsFullAllX64.exe"
   fileType       = 'exe'
-  silentArgs     = "/S /v/qn"
+  silentArgs     = '/S /v/qn'
   validExitCodes = @(0, 3010, 1641)
   softwareName   = 'eDrawings*'
 }
