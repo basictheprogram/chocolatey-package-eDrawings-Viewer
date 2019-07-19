@@ -7,7 +7,7 @@
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
     <authors>Dassault Systèmes</authors>
-    <projectUrl>http://www.edrawingsviewer.com/ed/edrawings-viewer.htm</projectUrl>
+    <projectUrl>https://www.edrawingsviewer.com/product/edrawings-viewer</projectUrl>
     <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-package-eDrawings-Viewer/master/icons/edrawings-viewer-icon.png</iconUrl>
     <copyright>©2019 Dassault Systemes SOLIDWORKS Corporation</copyright>
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
@@ -15,7 +15,7 @@
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>http://help.solidworks.com/2018/English/eDrawings/c_Welcome_to_eDrawings_Help.htm?rid=0</docsUrl>
     <mailingListUrl>https://forum.solidworks.com/community/edrawings</mailingListUrl>
-    <bugTrackerUrl>http://www.edrawingsviewer.com/ed/fpsupport.htm</bugTrackerUrl>
+    <bugTrackerUrl>https://www.solidworks.com/sw/support/fpsupport/fpsupport_req.htm?product=eDrawings%20Viewer</bugTrackerUrl>
     <tags>edrawings viewer CAD</tags>
     <summary>eDrawings Viewer delivers the premier 3D viewing tool for the non CAD professionals</summary>
     <description>eDrawings Viewer enables anyone to quickly and easily view, print and review eDrawings, SOLIDWORKS 
