@@ -2,13 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>edrawings-viewer-2018</id>
-    <version>18.3.0.20190301</version>
+    <version>18.3.0.20190302</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer/tree/2018</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>eDrawings Viewer</title>
+    <title>[Deprecated] eDrawings Viewer 2018</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>http://www.edrawingsviewer.com/ed/edrawings-viewer.htm</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-package-eDrawings-Viewer/master/icons/edrawings-viewer-icon.png</iconUrl>
     <copyright>©2017 Dassault Systemes SOLIDWORKS Corporation</copyright>
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -18,16 +17,12 @@
     <bugTrackerUrl>http://www.edrawingsviewer.com/ed/fpsupport.htm</bugTrackerUrl>
     <tags>edrawings viewer CAD</tags>
     <summary>eDrawings Viewer delivers the premier 3D viewing tool for the non CAD professionals</summary>
-    <description>eDrawings Viewer allows for multiple versions to co-exist on the same computer. Changing the packaging
-    names to include the version number to allow multiple versions of this package to be installed at the same time. 
-    
-    See https://groups.google.com/d/msg/chocolatey/i7BRl3D1oJs/vexR8sHfBgAJ for details</description>
+    <description>Community does not like the appened version number in the package name. Moving back to 
+    just the package name.</description>
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
     <dependencies>
-      <dependency id="dotnet4.6.2"/>
+      <dependency id="edrawings-viewer"/>
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+  <files />
 </package>
