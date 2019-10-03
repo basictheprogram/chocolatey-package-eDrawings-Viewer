@@ -13,7 +13,7 @@
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
-    <docsUrl>http://help.solidworks.com/2018/English/eDrawings/c_Welcome_to_eDrawings_Help.htm?rid=0</docsUrl>
+    <docsUrl>http://help.solidworks.com/2019/English/eDrawings/c_Welcome_to_eDrawings_Help.htm?rid=0</docsUrl>
     <mailingListUrl>https://forum.solidworks.com/community/edrawings</mailingListUrl>
     <bugTrackerUrl>https://www.solidworks.com/sw/support/fpsupport/fpsupport_req.htm?product=eDrawings%20Viewer</bugTrackerUrl>
     <tags>edrawings viewer CAD</tags>
