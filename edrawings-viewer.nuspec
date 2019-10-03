@@ -2,10 +2,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>edrawings-viewer-2018</id>
-    <version>18.3.0.20190302</version>
+    <version>18.3.0.20191003</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer/tree/2018</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>[Deprecated] eDrawings Viewer 2018</title>
+    <title>eDrawings Viewer 2018</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>http://www.edrawingsviewer.com/ed/edrawings-viewer.htm</projectUrl>
     <copyright>©2017 Dassault Systemes SOLIDWORKS Corporation</copyright>
@@ -17,12 +17,32 @@
     <bugTrackerUrl>http://www.edrawingsviewer.com/ed/fpsupport.htm</bugTrackerUrl>
     <tags>edrawings viewer CAD</tags>
     <summary>eDrawings Viewer delivers the premier 3D viewing tool for the non CAD professionals</summary>
-    <description>Community does not like the appened version number in the package name. Moving back to 
-    just the package name.</description>
+    <description>eDrawings Viewer enables anyone to quickly and easily view, print and review eDrawings, SOLIDWORKS 
+    and AutoCAD DWG and DXF files. eDrawings Viewer is available for Windows, Mac and Mobile devices for true cross 
+    platform design collaboration and communication.
+
+With a highly compressed files size and exceptional ease of use, non CAD users can now investigate complex product structures, 
+3D models and 2D drawings with innovative built-in interpretation tools include 3D Pointer, Virtual Folding, Point-and-click 
+Animation, and Hyperlinking. In addition to 2D and 3D product data, users of eDrawings Viewer can view SOLIDWORKS Simulation 
+and Plastic results to understand product performance and manufacturability.
+
+For users of the eDrawings mobile solutions Augmented Reality (AR) and Virtual Reality (VR) modes are available to further enhance 
+the rich nature of your 3D data.  AR for iOS and Android devices enable you to 'virtually see' your designs scaled correctly in it's 
+real world environment.  VR is available for iOS phones using Google Cardboard to easily visualize and comunicate product ideas.
+
+eDrawings Viewer enables easy communication for rapid prototyping and presentation purposes by saving model files in STL, TIFF, 
+JPEG, or BMP formats.
+
+The eDrawings Viewer is intended primarily for people who do not use CAD software, but need to consume and understand 3D product 
+data but not create and publish eDrawings files themselves. it is available for both Windows, Mac and Mobile platforms.
+</description>
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
     <dependencies>
-      <dependency id="edrawings-viewer"/>
+      <!-- <dependency id="dotnet4.6.2"/> -->
     </dependencies>
   </metadata>
-  <files />
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
