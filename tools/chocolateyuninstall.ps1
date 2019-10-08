@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
-    softwareName   = 'eDrawings-2019*'
+    softwareName   = 'eDrawings*'
     fileType       = 'exe'
     silentArgs     = '/S /v/qn'
     validExitCodes = @(0)
