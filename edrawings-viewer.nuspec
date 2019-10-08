@@ -38,11 +38,9 @@ The eDrawings Viewer is intended primarily for people who do not use CAD softwar
 data but not create and publish eDrawings files themselves. it is available for both Windows, Mac and Mobile platforms.</description>
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
     <dependencies>
-      <!-- <dependency id="dotnet4.6.2"/> -->
+      <dependency id="edrawings-viewer-2019"/>
     </dependencies>
   </metadata>
   <files>
-    <!-- this section controls what actually gets packaged into the Chocolatey package -->
-    <file src="tools\**" target="tools" />
   </files>
 </package>
