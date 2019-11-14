@@ -2,16 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>edrawings-viewer-2019</id>
-    <version>27.4.0.0021</version>
+    <version>27.4.0.0023</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer/tree/2019</packageSourceUrl>
     <owners>basictheprogram</owners>
-    <title>[Deprecated] eDrawings Viewer</title>
+    <title>[Deprecated] eDrawings Viewer 2019</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>https://www.edrawingsviewer.com/product/edrawings-viewer</projectUrl>
     <copyright>©2019 Dassault Systemes SOLIDWORKS Corporation</copyright>
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>http://help.solidworks.com/2018/English/eDrawings/c_Welcome_to_eDrawings_Help.htm?rid=0</docsUrl>
     <mailingListUrl>https://forum.solidworks.com/community/edrawings</mailingListUrl>
     <bugTrackerUrl>https://www.solidworks.com/sw/support/fpsupport/fpsupport_req.htm?product=eDrawings%20Viewer</bugTrackerUrl>
@@ -21,7 +20,7 @@
     just the package name.</description>
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
     <dependencies>
-      <dependency id="edrawings-viewer" />
+      <dependency id="edrawings-viewer" version="28.00"/>
     </dependencies>
   </metadata>
   <files />
