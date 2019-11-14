@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>edrawings-viewer</id>
-    <version>27.4.0.0022</version>
+    <version>28.00.5031</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer/tree/2019</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
@@ -38,9 +38,10 @@ The eDrawings Viewer is intended primarily for people who do not use CAD softwar
 data but not create and publish eDrawings files themselves. it is available for both Windows, Mac and Mobile platforms.</description>
     <releaseNotes>http://files.solidworks.com/Supportfiles/Release_Notes_eDrawings/2018/English/readme.htm</releaseNotes>
     <dependencies>
-      <dependency id="edrawings-viewer-2019"/>
+      <dependency id="dotnet4.6.2" version="4.6" />
     </dependencies>
   </metadata>
   <files>
+      <file src="tools\**" target="tools" />
   </files>
 </package>
