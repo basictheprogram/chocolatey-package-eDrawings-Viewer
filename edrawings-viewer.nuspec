@@ -8,7 +8,7 @@
     <title>eDrawings Viewer</title>
     <authors>Dassault Systèmes</authors>
     <projectUrl>https://www.edrawingsviewer.com/product/edrawings-viewer</projectUrl>
-    <iconUrl>http://cdn.rawgit.com/basictheprogram/chocolatey-package-eDrawings-Viewer/master/icons/edrawings-viewer-icon.png</iconUrl>
+    <iconUrl>https://basictheprogram.github.io/chocolatey-package-eDrawings-Viewer/icons/edrawings-viewer-icon.png</iconUrl>
     <copyright>©2019 Dassault Systemes SOLIDWORKS Corporation</copyright>
     <licenseUrl>http://help.solidworks.com/2018/English/eDrawings/c_copyright_solidworks.htm</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
