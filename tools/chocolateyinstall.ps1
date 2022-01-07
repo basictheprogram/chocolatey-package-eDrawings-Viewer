@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $packageName = $env:ChocolateyPackageName
-$url64 = 'https://dl-ak.solidworks.com/nonsecure/edrawings/e2021sp04/29.4.0.0037-5G4950I9/pfw/eDrawingsFullAllX64.exe'
-$checksum64 = '551ff3611ef05873519640ff90aa4bf3c559cfb8a7190a48e3846354ac27debe'
+$url64 = 'https://dl-ak.solidworks.com/nonsecure/edrawings/e2022sp0/30.0.0.5017-3SD6QS1R/pfw//eDrawingsFullAllX64.exe'
+$checksum64 = 'bc2e66caa8a3fbe6eb1443c98665217e992c98ff6ac04bb247a15366d00b3670'
 $WorkSpace = Join-Path $env:TEMP "$packageName.$env:chocolateyPackageVersion"
 
 $WebFileArgs = @{

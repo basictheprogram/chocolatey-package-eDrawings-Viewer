@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>edrawings-viewer</id>
-    <version>29.4.0.0037</version>
+    <version>30.00.5017</version>
     <packageSourceUrl>https://github.com/basictheprogram/chocolatey-package-eDrawings-Viewer</packageSourceUrl>
     <owners>basictheprogram</owners>
     <title>eDrawings Viewer</title>
